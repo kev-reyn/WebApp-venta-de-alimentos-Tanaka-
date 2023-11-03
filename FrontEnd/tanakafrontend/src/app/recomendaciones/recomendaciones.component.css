@@ -1,0 +1,25 @@
+
+.restaurant {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #EFEFEF;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  footer {
+    background-color: #EFEFEF;
+    padding: 10px;
+    text-align: center;
+  }

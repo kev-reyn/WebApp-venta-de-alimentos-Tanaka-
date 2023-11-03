@@ -1,0 +1,44 @@
+html {
+    background-color: red; /* Cambia el color de fondo a tu elección */
+  }
+  
+  .restaurant {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      min-height: calc(100vh - 60px); /* Ajusta el valor 60px según la altura de tu footer */
+      padding-bottom: 60px; /* Ajusta el valor 60px nuevamente según la altura del footer */
+    }
+
+    header {
+      background-color: #efefef73;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style: none;
+    }
+    
+    nav li {
+      display: inline;
+      margin-right: 20px;
+    }
+
+    .position {
+      position: relative;
+      bottom: 0;
+  }
+
+    .linkadm {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .footer {
+     background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+    }

@@ -1,0 +1,24 @@
+<div class="restaurant">
+    <header>
+      <h1>{{ title }}</h1>
+      <nav>
+        <ul>
+          <li><a routerLink="/Inicio">Menu</a></li>
+          <li><a routerLink="/recomendaciones">Recomendaciones</a></li>
+          <li><a routerLink="/Descuentos">Descuentos</a></li>
+          <!-- Otros enlaces de navegación -->
+        </ul>
+      </nav>
+    </header>
+      <div class="conatiner">
+        <div class="content">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+
+      <div class="footer">
+        <p><a class="linkadm" routerLink="login">&#x00A9;</a> {{ title }}</p>
+      </div>
+    
+</div>
+
